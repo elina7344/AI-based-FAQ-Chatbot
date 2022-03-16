@@ -1,0 +1,12 @@
+- Virtual Environment Setup
+- HTML
+- Javascript
+- CSS
+- SQL-Storage-Adaptor
+- Python 3.7.0
+- Figma
+- Chatterbot==1.2.0
+- Chatterbot-Corpus==1.2.0
+- Flask==1.0.0
+- Jquery
+- SQL-ALchemy==1.2
