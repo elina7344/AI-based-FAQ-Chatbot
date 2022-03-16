@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Play', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.logo img{
+    width: 70px;
+
+    border: 3px purple ;
+    border-radius: 100px;
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+   cursor: pointer;
+
+
+}
+
+.NavList{
+    width: 70%;
+    margin-top: 15px;
+   padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 50%;
+
+}
+.NavList h1{
+    color: white;
+    font-family: 'Play', sans-serif;
+    margin-top: 20px;
+}
+.NavList h1:hover{
+    color:violet;
+}
+.RightNav{
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+}
+.RightNav li{
+    list-style:none ;
+    padding: 26px 30px;
+
+}
+.RightNav li a{
+text-decoration: none ;
+color: white;
+font-size: 20px;
+font-family: 'Play', sans-serif;
+
+}
+.RightNav li a:hover{
+    text-decoration: none ;
+    color:violet;
+}
+.sec1{
+    height: 100vh;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Play', sans-serif;
+    margin: auto;
+    height: 75%;
+
+    max-width: 98%;
+
+}
+.FirstHalf{
+    width: 60%;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Play', sans-serif;
+    padding-top: 5%;
+
+}
+.SecondHalf{
+    width: 40%;
+    margin-top: 100px;
+    margin-right: -125px;
+
+}
+.SecondHalf img{
+    width: 80%;
+
+}
+
+
+
+
+
+ #chatbox
+{
+background-color: black;
+margin-left: 60px;
+margin-right: 60px;
+width: 70%;
+margin-top: 80px;
+}
+#userInput {
+margin-left: 60px;
+margin-right: 60px;
+width: 40%;
+margin-top: 80px;
+}
+#textInput {
+width: 144%;
+height: 35px;
+border: none;
+background-color: white;
+font-family: 'Play', sans-serif;
+font-size: 17px;
+border-radius: 10px;
+}
+#buttonInput {
+    position: absolute;
+    width: 70px;
+    height: 35px;
+      margin-left: 36.5%;
+      margin-top: -2.9%;
+
+
+    font-size: 22px;
+    color: #000000;
+    background-color: #03FDFD;
+    filter: drop-shadow(0px 4px 4px #03FDFD );
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#buttonInput:hover{
+    background-color: white;
+    color: purple;
+    filter: drop-shadow(0px 4px 4px white );
+    border: 1px solid purple;
+}
+.userText {
+color: black;
+font-family: 'Play', sans-serif;
+font-size: 17px;
+text-align: right;
+line-height: 32px;
+
+}
+.userText span {
+background-color: #B094FE;
+padding: 10px;
+border-radius: 2px;
+margin-left: 50%;
+word-wrap: break-word;
+
+}
+.botText {
+color: black;
+font-family: 'Play', sans-serif;
+font-size: 17px;
+text-align: left;
+line-height: 32px;
+}
+.botText span {
+background-color: white;
+padding: 10px;
+border-radius: 2px;
+}
+ #tidbit {
+position:absolute;
+bottom:0;
+right:0;
+width: 300px;
