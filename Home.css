@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Play', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.logo img{
+    width: 70px;
+
+    border: 3px purple ;
+    border-radius: 100px;
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+   cursor: pointer;
+
+
+}
+
+.NavList{
+    width: 70%;
+    margin-top: 15px;
+   padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 50%;
+
+}
+.NavList h1{
+    color: white;
+    font-family: 'Play', sans-serif;
+    margin-top: 20px;
+}
+.NavList h1:hover{
+    color:violet;
+}
+.RightNav{
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+}
+.RightNav li{
+    list-style:none ;
+    padding: 26px 30px;
+
+}
+.RightNav li a{
+text-decoration: none ;
+color: white;
+font-size: 20px;
+font-family: 'Play', sans-serif;
+
+}
+.RightNav li a:hover{
+    text-decoration: none ;
+    color:violet;
+}
+.sec1{
+    height: 100vh;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Play', sans-serif;
+    margin: auto;
+    height: 75%;
+
+    max-width: 98%;
+
+}
+.FirstHalf{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-family: 'Play', sans-serif;
+    padding-top: 5%;
+
+}
+.SecondHalf{
+    width: 40%;
+    margin-right: 50px;
+
+}
+.SecondHalf img{
+    width: 100%;
+    
+}
+.text-big{
+    font-size: 45px;
+    text-align: left;
+
+    padding-left: 15%;
+    padding-right: 40%;
+}
+.text-small{
+    font-size: 22px;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 40%;
+
+}
+.btn{
+    width: 35%;
+    height: 40px;
+    margin-left: 16%;
+    margin-top: 5%;
+    font-size: 22px;
+    color: #000000;
+    background-color: #03FDFD;
+    filter: drop-shadow(0px 4px 4px #03FDFD );
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: purple;
+    filter: drop-shadow(0px 4px 4px white );
+    border: 1px solid purple;
+}
+
+/* feature page css */
+.sec2{
+    height: 100vh;
+
+}
+.SecondBoxMain{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: 'Play', sans-serif;
+margin: auto;
+height: 40%;
+max-width: 98%;
+}
+.SHalf{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-family: 'Play', sans-serif;
+    padding-bottom:5% ;
+    text-align: left;
+    margin-left: 10%;
+
+}
+.FHalf{
+    width: 50%;
+    margin-right: 50px;
+}
+.FHalf img{
+    width: 80%;
+    justify-content: right;
+    margin-left:20% ;
+}
+.TBig{
+    font-size: 45px;
+
+
+    padding-left: 15%;
+    padding-right: 40%;
+    padding-top: 20%;
+}
+.FDescription{
+width: 60%;
+padding-inline: 10%;
+font-size: large;
+padding-block: 8%;
+line-height: 40px;
+}
+.btn2{
+    width: 55%;
+    height: 40px;
+
+    margin-top: 5%;
+    font-size: 22px;
+    color: #000000;
+    background-color: #03FDFD;
+    filter: drop-shadow(0px 4px 4px #03FDFD );
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    background-color: white;
+    color: purple;
+    filter: drop-shadow(0px 4px 4px white );
+    border: 1px solid purple;
+}

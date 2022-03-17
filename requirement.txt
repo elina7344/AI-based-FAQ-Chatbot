@@ -1,12 +1,12 @@
-- Virtual Environment Setup
-- HTML
-- Javascript
-- CSS
-- SQL-Storage-Adaptor
-- Python 3.7.0
-- Figma
-- Chatterbot==1.2.0
-- Chatterbot-Corpus==1.2.0
-- Flask==1.0.0
-- Jquery
-- SQL-ALchemy==1.2
+py -m pip install --upgrade
+py -m pip --version
+Set-Location - Path "C:\G-Drive"
+py -m pip install --user virtualenv
+py -m venv env
+.\env\Scripts\activate
+# to leave - deactivate
+py -m  pip install Flask==1.0.0
+py -m pip install chatterbot==1.0.0
+py -m pip install chatterbot-corpus==1.2.0
+py -m pip install SQLALchemy==1.2
+select app.py completely and press shift+enter
