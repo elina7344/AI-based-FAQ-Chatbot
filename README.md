@@ -11,7 +11,7 @@ Here we have built a Chatbot that can answer questions as well as build a strong
 - It saves input and learns to give proper response
 
 ## Application Scope
-- Huge demand in the business sector
+- Huge demand in the business sectors.
 - Customisable
 - It can be used 24/7
 
