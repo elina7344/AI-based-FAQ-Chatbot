@@ -5,7 +5,7 @@ Here we have built a Chatbot that can answer questions as well as build a strong
 ## Features
 
 - It can be modified according to the user’s command.
-- The chatbot can speak different languages.
+- The chatbot can speak various different languages.
 - It can build a good conversation with the user.
 - It can answer FAQs efficiently
 - It saves input and learns to give proper response
