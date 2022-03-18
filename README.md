@@ -20,14 +20,5 @@ Here we have built a Chatbot that can answer questions as well as build a strong
 - This chatbot is based on the chatterbot python library
 - It has the ability to search and give appropriate response using various AI algorithms
 
-## ChatBot Model
-![alt text](images/Chatbot Model-1.jpeg)
-![alt text](images/ChatBot Model-2.jpeg)
-
-## Home Page
-![alt text](images/Feature page.jpeg)
-
-## Features Page
-![alt text](images/Home page.jpeg)
 
 
